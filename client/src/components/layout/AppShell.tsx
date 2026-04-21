@@ -79,7 +79,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
     <div className='relative min-h-screen bg-background'>
       {/* Top bar */}
       <header className='sticky top-0 z-30 border-b border-border/70 bg-background/85 backdrop-blur-md'>
-        <div className='mx-auto max-w-7xl flex h-14 items-center justify-between gap-4 px-4 md:px-6'>
+        <div className='mx-auto max-w-[90vw] flex h-14 items-center justify-between gap-4 px-4 md:px-6'>
           <div className='flex items-center gap-8'>
             <Link href='/'>
               <a>
@@ -120,12 +120,12 @@ export function AppShell({ children }: { children: React.ReactNode }) {
       </header>
 
       {/* Page content */}
-      <main className='mx-auto max-w-7xl px-4 pb-28 pt-6 md:px-6 md:pb-10 md:pt-8'>
+      <main className='mx-auto max-w-[90vw] px-4 pb-28 pt-6 md:px-6 md:pb-10 md:pt-8'>
         {children}
       </main>
 
       {/* Footer hidden on mobile to keep bottom-nav clean */}
-      <footer className='mx-auto hidden max-w-6xl px-6 pb-10 pt-4 text-xs text-muted-foreground md:block'>
+      <footer className='mx-auto hidden max-w-[90vw] px-6 pb-10 pt-4 text-xs text-muted-foreground md:block'>
         <div className='flex flex-wrap items-center justify-between gap-2 border-t border-border/70 pt-4'>
           <span>
             © {new Date().getFullYear()} Spendly. A calmer way to track money.
