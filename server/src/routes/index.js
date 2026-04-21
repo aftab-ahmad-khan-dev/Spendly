@@ -8,8 +8,6 @@ import aiRoutes from './ai.route.js';
 
 const router = Router();
 
-router.get('/health', (_req, res) => res.json({ status: 'ok' }));
-
 router.use('/categories', categoryRoutes);
 router.use('/expenses', expenseRoutes);
 router.use('/budgets', budgetRoutes);

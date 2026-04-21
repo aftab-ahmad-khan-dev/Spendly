@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node --check src/utils/statusPage.js)",
+      "Bash(node --check src/app.js)",
+      "Bash(node --check src/routes/index.js)"
+    ]
+  }
+}
