@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# Spendly server — Node + Express + Mongoose
+# -----------------------------------------------------------------------------
+
+# ── Dependencies ─────────────────────────────────────────────────────────────
+node_modules/
+.pnp.*
+
+
+# ── Runtime / build ──────────────────────────────────────────────────────────
+dist/
+build/
+tmp/
+*.tsbuildinfo
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+pm2.log
+
+# ── Deployment ───────────────────────────────────────────────────────────────
+.vercel/
+.netlify/
+.serverless/
+
+# ── Tests & coverage ─────────────────────────────────────────────────────────
+coverage/
+.nyc_output/
+
+# ── Editors / OS ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+.idea/
+*.swp
+.claude
+# ── Uploaded files (if you add file uploads later) ───────────────────────────
+uploads/
+public/uploads/
